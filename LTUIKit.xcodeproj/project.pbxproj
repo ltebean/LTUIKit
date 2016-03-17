@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFD5DED1C9A5665008BAF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5DEC1C9A5665008BAF5E /* main.m */; };
+		FAFD5DF01C9A5665008BAF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5DEF1C9A5665008BAF5E /* AppDelegate.m */; };
+		FAFD5DF31C9A5665008BAF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5DF21C9A5665008BAF5E /* ViewController.m */; };
+		FAFD5DF61C9A5665008BAF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD5DF41C9A5665008BAF5E /* Main.storyboard */; };
+		FAFD5DF81C9A5665008BAF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFD5DF71C9A5665008BAF5E /* Assets.xcassets */; };
+		FAFD5DFB1C9A5665008BAF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD5DF91C9A5665008BAF5E /* LaunchScreen.storyboard */; };
+		FAFD5E061C9A5665008BAF5E /* LTUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E051C9A5665008BAF5E /* LTUIKitTests.m */; };
+		FAFD5E111C9A5665008BAF5E /* LTUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E101C9A5665008BAF5E /* LTUIKitUITests.m */; };
+		FAFD5E211C9A570F008BAF5E /* DesignableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E201C9A570F008BAF5E /* DesignableButton.m */; };
+		FAFD5E241C9A57A8008BAF5E /* LTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E231C9A57A8008BAF5E /* LTGradientView.m */; };
+		FAFD5E271C9A5BCD008BAF5E /* XibBasedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E261C9A5BCD008BAF5E /* XibBasedView.m */; };
+		FAFD5E2A1C9A5D54008BAF5E /* TestXibBasedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E291C9A5D54008BAF5E /* TestXibBasedView.m */; };
+		FAFD5E2C1C9A5D63008BAF5E /* TestXibBasedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFD5E2B1C9A5D63008BAF5E /* TestXibBasedView.xib */; };
+		FAFD5E331C9A646D008BAF5E /* UIView+AnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E321C9A646D008BAF5E /* UIView+AnchorPoint.m */; };
+		FAFD5E361C9A655D008BAF5E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E351C9A655D008BAF5E /* UIColor+Hex.m */; };
+		FAFD5E391C9A6AFE008BAF5E /* OnePixelSeperator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E381C9A6AFE008BAF5E /* OnePixelSeperator.m */; };
+		FAFD5E3C1C9A8E92008BAF5E /* OvalImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E3B1C9A8E92008BAF5E /* OvalImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFD5E021C9A5665008BAF5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFD5DE01C9A5665008BAF5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFD5DE71C9A5665008BAF5E;
+			remoteInfo = LTUIKit;
+		};
+		FAFD5E0D1C9A5665008BAF5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFD5DE01C9A5665008BAF5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFD5DE71C9A5665008BAF5E;
+			remoteInfo = LTUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAFD5DE81C9A5665008BAF5E /* LTUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD5DEC1C9A5665008BAF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFD5DEE1C9A5665008BAF5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAFD5DEF1C9A5665008BAF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAFD5DF11C9A5665008BAF5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAFD5DF21C9A5665008BAF5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFD5DF51C9A5665008BAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFD5DF71C9A5665008BAF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFD5DFA1C9A5665008BAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFD5DFC1C9A5665008BAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD5E011C9A5665008BAF5E /* LTUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD5E051C9A5665008BAF5E /* LTUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTUIKitTests.m; sourceTree = "<group>"; };
+		FAFD5E071C9A5665008BAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD5E0C1C9A5665008BAF5E /* LTUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD5E101C9A5665008BAF5E /* LTUIKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTUIKitUITests.m; sourceTree = "<group>"; };
+		FAFD5E121C9A5665008BAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD5E1F1C9A570F008BAF5E /* DesignableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableButton.h; sourceTree = "<group>"; };
+		FAFD5E201C9A570F008BAF5E /* DesignableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableButton.m; sourceTree = "<group>"; };
+		FAFD5E221C9A57A8008BAF5E /* LTGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTGradientView.h; sourceTree = "<group>"; };
+		FAFD5E231C9A57A8008BAF5E /* LTGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTGradientView.m; sourceTree = "<group>"; };
+		FAFD5E251C9A5BCD008BAF5E /* XibBasedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibBasedView.h; sourceTree = "<group>"; };
+		FAFD5E261C9A5BCD008BAF5E /* XibBasedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibBasedView.m; sourceTree = "<group>"; };
+		FAFD5E281C9A5D54008BAF5E /* TestXibBasedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXibBasedView.h; sourceTree = "<group>"; };
+		FAFD5E291C9A5D54008BAF5E /* TestXibBasedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXibBasedView.m; sourceTree = "<group>"; };
+		FAFD5E2B1C9A5D63008BAF5E /* TestXibBasedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestXibBasedView.xib; sourceTree = "<group>"; };
+		FAFD5E311C9A646D008BAF5E /* UIView+AnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnchorPoint.h"; sourceTree = "<group>"; };
+		FAFD5E321C9A646D008BAF5E /* UIView+AnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnchorPoint.m"; sourceTree = "<group>"; };
+		FAFD5E341C9A655D008BAF5E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		FAFD5E351C9A655D008BAF5E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		FAFD5E371C9A6AFE008BAF5E /* OnePixelSeperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePixelSeperator.h; sourceTree = "<group>"; };
+		FAFD5E381C9A6AFE008BAF5E /* OnePixelSeperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePixelSeperator.m; sourceTree = "<group>"; };
+		FAFD5E3A1C9A8E92008BAF5E /* OvalImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalImageView.h; sourceTree = "<group>"; };
+		FAFD5E3B1C9A8E92008BAF5E /* OvalImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalImageView.m; sourceTree = "<group>"; };
+		FAFD5E3F1C9AA84F008BAF5E /* LTUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTUIKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFD5DE51C9A5665008BAF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD5DFE1C9A5665008BAF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD5E091C9A5665008BAF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFD5DDF1C9A5665008BAF5E = {
+			isa = PBXGroup;
+			children = (
+				FAFD5DEA1C9A5665008BAF5E /* LTUIKit */,
+				FAFD5E041C9A5665008BAF5E /* LTUIKitTests */,
+				FAFD5E0F1C9A5665008BAF5E /* LTUIKitUITests */,
+				FAFD5DE91C9A5665008BAF5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFD5DE91C9A5665008BAF5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5DE81C9A5665008BAF5E /* LTUIKit.app */,
+				FAFD5E011C9A5665008BAF5E /* LTUIKitTests.xctest */,
+				FAFD5E0C1C9A5665008BAF5E /* LTUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFD5DEA1C9A5665008BAF5E /* LTUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5E3E1C9AA81A008BAF5E /* Sources */,
+				FAFD5DEE1C9A5665008BAF5E /* AppDelegate.h */,
+				FAFD5DEF1C9A5665008BAF5E /* AppDelegate.m */,
+				FAFD5DF11C9A5665008BAF5E /* ViewController.h */,
+				FAFD5DF21C9A5665008BAF5E /* ViewController.m */,
+				FAFD5DF41C9A5665008BAF5E /* Main.storyboard */,
+				FAFD5DF71C9A5665008BAF5E /* Assets.xcassets */,
+				FAFD5DF91C9A5665008BAF5E /* LaunchScreen.storyboard */,
+				FAFD5DFC1C9A5665008BAF5E /* Info.plist */,
+				FAFD5DEB1C9A5665008BAF5E /* Supporting Files */,
+				FAFD5E281C9A5D54008BAF5E /* TestXibBasedView.h */,
+				FAFD5E291C9A5D54008BAF5E /* TestXibBasedView.m */,
+				FAFD5E2B1C9A5D63008BAF5E /* TestXibBasedView.xib */,
+			);
+			path = LTUIKit;
+			sourceTree = "<group>";
+		};
+		FAFD5DEB1C9A5665008BAF5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5DEC1C9A5665008BAF5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFD5E041C9A5665008BAF5E /* LTUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5E051C9A5665008BAF5E /* LTUIKitTests.m */,
+				FAFD5E071C9A5665008BAF5E /* Info.plist */,
+			);
+			path = LTUIKitTests;
+			sourceTree = "<group>";
+		};
+		FAFD5E0F1C9A5665008BAF5E /* LTUIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5E101C9A5665008BAF5E /* LTUIKitUITests.m */,
+				FAFD5E121C9A5665008BAF5E /* Info.plist */,
+			);
+			path = LTUIKitUITests;
+			sourceTree = "<group>";
+		};
+		FAFD5E1E1C9A569B008BAF5E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5E1F1C9A570F008BAF5E /* DesignableButton.h */,
+				FAFD5E201C9A570F008BAF5E /* DesignableButton.m */,
+				FAFD5E221C9A57A8008BAF5E /* LTGradientView.h */,
+				FAFD5E231C9A57A8008BAF5E /* LTGradientView.m */,
+				FAFD5E251C9A5BCD008BAF5E /* XibBasedView.h */,
+				FAFD5E261C9A5BCD008BAF5E /* XibBasedView.m */,
+				FAFD5E371C9A6AFE008BAF5E /* OnePixelSeperator.h */,
+				FAFD5E381C9A6AFE008BAF5E /* OnePixelSeperator.m */,
+				FAFD5E3A1C9A8E92008BAF5E /* OvalImageView.h */,
+				FAFD5E3B1C9A8E92008BAF5E /* OvalImageView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		FAFD5E2D1C9A63E5008BAF5E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5E311C9A646D008BAF5E /* UIView+AnchorPoint.h */,
+				FAFD5E321C9A646D008BAF5E /* UIView+AnchorPoint.m */,
+				FAFD5E341C9A655D008BAF5E /* UIColor+Hex.h */,
+				FAFD5E351C9A655D008BAF5E /* UIColor+Hex.m */,
+			);
+			name = Category;
+			path = Catgegory;
+			sourceTree = "<group>";
+		};
+		FAFD5E3E1C9AA81A008BAF5E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD5E1E1C9A569B008BAF5E /* UIView */,
+				FAFD5E2D1C9A63E5008BAF5E /* Category */,
+				FAFD5E3F1C9AA84F008BAF5E /* LTUIKit.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFD5DE71C9A5665008BAF5E /* LTUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFD5E151C9A5665008BAF5E /* Build configuration list for PBXNativeTarget "LTUIKit" */;
+			buildPhases = (
+				FAFD5DE41C9A5665008BAF5E /* Sources */,
+				FAFD5DE51C9A5665008BAF5E /* Frameworks */,
+				FAFD5DE61C9A5665008BAF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTUIKit;
+			productName = LTUIKit;
+			productReference = FAFD5DE81C9A5665008BAF5E /* LTUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFD5E001C9A5665008BAF5E /* LTUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFD5E181C9A5665008BAF5E /* Build configuration list for PBXNativeTarget "LTUIKitTests" */;
+			buildPhases = (
+				FAFD5DFD1C9A5665008BAF5E /* Sources */,
+				FAFD5DFE1C9A5665008BAF5E /* Frameworks */,
+				FAFD5DFF1C9A5665008BAF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFD5E031C9A5665008BAF5E /* PBXTargetDependency */,
+			);
+			name = LTUIKitTests;
+			productName = LTUIKitTests;
+			productReference = FAFD5E011C9A5665008BAF5E /* LTUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFD5E0B1C9A5665008BAF5E /* LTUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFD5E1B1C9A5665008BAF5E /* Build configuration list for PBXNativeTarget "LTUIKitUITests" */;
+			buildPhases = (
+				FAFD5E081C9A5665008BAF5E /* Sources */,
+				FAFD5E091C9A5665008BAF5E /* Frameworks */,
+				FAFD5E0A1C9A5665008BAF5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFD5E0E1C9A5665008BAF5E /* PBXTargetDependency */,
+			);
+			name = LTUIKitUITests;
+			productName = LTUIKitUITests;
+			productReference = FAFD5E0C1C9A5665008BAF5E /* LTUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFD5DE01C9A5665008BAF5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ltebean;
+				TargetAttributes = {
+					FAFD5DE71C9A5665008BAF5E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FAFD5E001C9A5665008BAF5E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAFD5DE71C9A5665008BAF5E;
+					};
+					FAFD5E0B1C9A5665008BAF5E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FAFD5DE71C9A5665008BAF5E;
+					};
+				};
+			};
+			buildConfigurationList = FAFD5DE31C9A5665008BAF5E /* Build configuration list for PBXProject "LTUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFD5DDF1C9A5665008BAF5E;
+			productRefGroup = FAFD5DE91C9A5665008BAF5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFD5DE71C9A5665008BAF5E /* LTUIKit */,
+				FAFD5E001C9A5665008BAF5E /* LTUIKitTests */,
+				FAFD5E0B1C9A5665008BAF5E /* LTUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFD5DE61C9A5665008BAF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD5DFB1C9A5665008BAF5E /* LaunchScreen.storyboard in Resources */,
+				FAFD5DF81C9A5665008BAF5E /* Assets.xcassets in Resources */,
+				FAFD5E2C1C9A5D63008BAF5E /* TestXibBasedView.xib in Resources */,
+				FAFD5DF61C9A5665008BAF5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD5DFF1C9A5665008BAF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD5E0A1C9A5665008BAF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFD5DE41C9A5665008BAF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD5E331C9A646D008BAF5E /* UIView+AnchorPoint.m in Sources */,
+				FAFD5DF31C9A5665008BAF5E /* ViewController.m in Sources */,
+				FAFD5E211C9A570F008BAF5E /* DesignableButton.m in Sources */,
+				FAFD5E391C9A6AFE008BAF5E /* OnePixelSeperator.m in Sources */,
+				FAFD5E3C1C9A8E92008BAF5E /* OvalImageView.m in Sources */,
+				FAFD5E2A1C9A5D54008BAF5E /* TestXibBasedView.m in Sources */,
+				FAFD5E361C9A655D008BAF5E /* UIColor+Hex.m in Sources */,
+				FAFD5E271C9A5BCD008BAF5E /* XibBasedView.m in Sources */,
+				FAFD5DF01C9A5665008BAF5E /* AppDelegate.m in Sources */,
+				FAFD5DED1C9A5665008BAF5E /* main.m in Sources */,
+				FAFD5E241C9A57A8008BAF5E /* LTGradientView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD5DFD1C9A5665008BAF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD5E061C9A5665008BAF5E /* LTUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFD5E081C9A5665008BAF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD5E111C9A5665008BAF5E /* LTUIKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFD5E031C9A5665008BAF5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFD5DE71C9A5665008BAF5E /* LTUIKit */;
+			targetProxy = FAFD5E021C9A5665008BAF5E /* PBXContainerItemProxy */;
+		};
+		FAFD5E0E1C9A5665008BAF5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFD5DE71C9A5665008BAF5E /* LTUIKit */;
+			targetProxy = FAFD5E0D1C9A5665008BAF5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFD5DF41C9A5665008BAF5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFD5DF51C9A5665008BAF5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFD5DF91C9A5665008BAF5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFD5DFA1C9A5665008BAF5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFD5E131C9A5665008BAF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAFD5E141C9A5665008BAF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFD5E161C9A5665008BAF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAFD5E171C9A5665008BAF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAFD5E191C9A5665008BAF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTUIKit.app/LTUIKit";
+			};
+			name = Debug;
+		};
+		FAFD5E1A1C9A5665008BAF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LTUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTUIKit.app/LTUIKit";
+			};
+			name = Release;
+		};
+		FAFD5E1C1C9A5665008BAF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTUIKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTUIKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAFD5E1D1C9A5665008BAF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTUIKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTUIKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LTUIKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFD5DE31C9A5665008BAF5E /* Build configuration list for PBXProject "LTUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD5E131C9A5665008BAF5E /* Debug */,
+				FAFD5E141C9A5665008BAF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFD5E151C9A5665008BAF5E /* Build configuration list for PBXNativeTarget "LTUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD5E161C9A5665008BAF5E /* Debug */,
+				FAFD5E171C9A5665008BAF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFD5E181C9A5665008BAF5E /* Build configuration list for PBXNativeTarget "LTUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD5E191C9A5665008BAF5E /* Debug */,
+				FAFD5E1A1C9A5665008BAF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAFD5E1B1C9A5665008BAF5E /* Build configuration list for PBXNativeTarget "LTUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD5E1C1C9A5665008BAF5E /* Debug */,
+				FAFD5E1D1C9A5665008BAF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFD5DE01C9A5665008BAF5E /* Project object */;
+}
