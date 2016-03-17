@@ -12,7 +12,7 @@
 #import "OvalImageView.h"
 #import "OnePixelSeperator.h"
 #import "XibBasedView.h"
-#import "LTGradientView.h"
+#import "GradientView.h"
 #import "DesignableButton.h"
 
 

@@ -16,7 +16,6 @@
 		FAFD5E061C9A5665008BAF5E /* LTUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E051C9A5665008BAF5E /* LTUIKitTests.m */; };
 		FAFD5E111C9A5665008BAF5E /* LTUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E101C9A5665008BAF5E /* LTUIKitUITests.m */; };
 		FAFD5E211C9A570F008BAF5E /* DesignableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E201C9A570F008BAF5E /* DesignableButton.m */; };
-		FAFD5E241C9A57A8008BAF5E /* LTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E231C9A57A8008BAF5E /* LTGradientView.m */; };
 		FAFD5E271C9A5BCD008BAF5E /* XibBasedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E261C9A5BCD008BAF5E /* XibBasedView.m */; };
 		FAFD5E2A1C9A5D54008BAF5E /* TestXibBasedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E291C9A5D54008BAF5E /* TestXibBasedView.m */; };
 		FAFD5E2C1C9A5D63008BAF5E /* TestXibBasedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFD5E2B1C9A5D63008BAF5E /* TestXibBasedView.xib */; };
@@ -24,6 +23,7 @@
 		FAFD5E361C9A655D008BAF5E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E351C9A655D008BAF5E /* UIColor+Hex.m */; };
 		FAFD5E391C9A6AFE008BAF5E /* OnePixelSeperator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E381C9A6AFE008BAF5E /* OnePixelSeperator.m */; };
 		FAFD5E3C1C9A8E92008BAF5E /* OvalImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E3B1C9A8E92008BAF5E /* OvalImageView.m */; };
+		FAFD5E421C9AAAA7008BAF5E /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD5E411C9AAAA7008BAF5E /* GradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,6 @@
 		FAFD5E121C9A5665008BAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAFD5E1F1C9A570F008BAF5E /* DesignableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableButton.h; sourceTree = "<group>"; };
 		FAFD5E201C9A570F008BAF5E /* DesignableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableButton.m; sourceTree = "<group>"; };
-		FAFD5E221C9A57A8008BAF5E /* LTGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTGradientView.h; sourceTree = "<group>"; };
-		FAFD5E231C9A57A8008BAF5E /* LTGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTGradientView.m; sourceTree = "<group>"; };
 		FAFD5E251C9A5BCD008BAF5E /* XibBasedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibBasedView.h; sourceTree = "<group>"; };
 		FAFD5E261C9A5BCD008BAF5E /* XibBasedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibBasedView.m; sourceTree = "<group>"; };
 		FAFD5E281C9A5D54008BAF5E /* TestXibBasedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXibBasedView.h; sourceTree = "<group>"; };
@@ -78,6 +76,8 @@
 		FAFD5E3A1C9A8E92008BAF5E /* OvalImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalImageView.h; sourceTree = "<group>"; };
 		FAFD5E3B1C9A8E92008BAF5E /* OvalImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalImageView.m; sourceTree = "<group>"; };
 		FAFD5E3F1C9AA84F008BAF5E /* LTUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTUIKit.h; sourceTree = "<group>"; };
+		FAFD5E401C9AAAA7008BAF5E /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		FAFD5E411C9AAAA7008BAF5E /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,14 +176,14 @@
 			children = (
 				FAFD5E1F1C9A570F008BAF5E /* DesignableButton.h */,
 				FAFD5E201C9A570F008BAF5E /* DesignableButton.m */,
-				FAFD5E221C9A57A8008BAF5E /* LTGradientView.h */,
-				FAFD5E231C9A57A8008BAF5E /* LTGradientView.m */,
 				FAFD5E251C9A5BCD008BAF5E /* XibBasedView.h */,
 				FAFD5E261C9A5BCD008BAF5E /* XibBasedView.m */,
 				FAFD5E371C9A6AFE008BAF5E /* OnePixelSeperator.h */,
 				FAFD5E381C9A6AFE008BAF5E /* OnePixelSeperator.m */,
 				FAFD5E3A1C9A8E92008BAF5E /* OvalImageView.h */,
 				FAFD5E3B1C9A8E92008BAF5E /* OvalImageView.m */,
+				FAFD5E401C9AAAA7008BAF5E /* GradientView.h */,
+				FAFD5E411C9AAAA7008BAF5E /* GradientView.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -341,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFD5E421C9AAAA7008BAF5E /* GradientView.m in Sources */,
 				FAFD5E331C9A646D008BAF5E /* UIView+AnchorPoint.m in Sources */,
 				FAFD5DF31C9A5665008BAF5E /* ViewController.m in Sources */,
 				FAFD5E211C9A570F008BAF5E /* DesignableButton.m in Sources */,
@@ -351,7 +352,6 @@
 				FAFD5E271C9A5BCD008BAF5E /* XibBasedView.m in Sources */,
 				FAFD5DF01C9A5665008BAF5E /* AppDelegate.m in Sources */,
 				FAFD5DED1C9A5665008BAF5E /* main.m in Sources */,
-				FAFD5E241C9A57A8008BAF5E /* LTGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

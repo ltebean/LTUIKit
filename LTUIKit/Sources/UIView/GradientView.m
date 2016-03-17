@@ -6,7 +6,7 @@
 //  Copyright © 2016年 ltebean. All rights reserved.
 //
 
-#import "LTGradientView.h"
+#import "GradientView.h"
 
 @interface GradientView()
 @property (nonatomic, strong) CAGradientLayer *gradientLayer;

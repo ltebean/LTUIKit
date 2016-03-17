@@ -1,5 +1,5 @@
 //
-//  LTGradientView.h
+//  GradientView.h
 //  LTUIKit
 //
 //  Created by ltebean on 16/3/17.
