@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ltebean/LTUIKit"
   s.license      = "MIT"
   s.author       = { "ltebean" => "yucong1118@gmail.com" }
-  s.source       = { :git => "git@github.com:ltebean/LTUIKit.git", :tag => "v" + s.version.to_s}
+  s.source       = { :git => "https://github.com/ltebean/LTUIKit.git", :tag => "v" + s.version.to_s}
   s.source_files = "LTUIKit/Sources/**/*.{h,m}"  
   s.requires_arc = true
   s.platform     = :ios, '7.0'
